@@ -1,0 +1,17 @@
+public class Main {
+    public static void main(String[] args) {
+
+        double cardBalance = 5000;
+        double intRate = .17;
+        double monthOne;
+        double monthTwo;
+
+        monthOne = cardBalance * intRate + cardBalance;
+        monthTwo = monthOne * intRate + monthOne;
+
+        System.out.println("The initial card balance is: " + cardBalance);
+        System.out.println("The balance after one month is: " + monthOne);
+        System.out.println("The balance after two months is: "+ monthTwo);
+
+    }
+}
