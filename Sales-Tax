@@ -1,0 +1,10 @@
+public class Main {
+    public static void main(String[] args) {
+        double salesTax = .05;
+        double itemPrice = 11;
+        double finalPrice;
+        finalPrice = itemPrice * salesTax +itemPrice;
+        System.out.println("The initial price is: " + itemPrice);
+        System.out.println("The items price after tax is: " + finalPrice);
+    }
+}
