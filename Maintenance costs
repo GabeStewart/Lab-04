@@ -1,0 +1,19 @@
+public class Main {
+    public static void main(String[] args) {
+
+        double winterCost = 120.45;
+        double springCost = 145.05;
+        double summerCost = 132.83;
+        double fallCost = 154.96;
+        double finalCost;
+
+        finalCost = winterCost + springCost + summerCost + fallCost;
+
+        System.out.println("The cost in Winter is: " + winterCost);
+        System.out.println("The cost in Spring is: " + springCost);
+        System.out.println("The cost in Summer is: " + summerCost);
+        System.out.println("The cost in Fall is: " + fallCost);
+        System.out.println("The total maintenance cost for the year is: " + finalCost);
+
+    }
+}
